@@ -1,0 +1,33 @@
+.header {
+    width: 1296px;
+    height: 25px;
+    position: absolute;
+    margin: 0 auto;
+    top: 46px;
+    justify-content: space-between;
+    display: flex;
+
+    &_left {
+        width: 530px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_txt {
+            text-decoration: none;
+            font-family: 'ReformaGroteskMediumC';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 120%;
+
+            /* identical to box height, or 29px */
+            text-align: center;
+            letter-spacing: 0.03em;
+
+            /* white */
+            color: #FFFFFF;
+
+
+        }
+    }
+}

@@ -1,0 +1,611 @@
+.main {
+    &_top {
+        width: 100%;
+        height: 1000px;
+        background: url('../../../public/img/bg.png');
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &_info {
+            margin-top: 168px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &_header {
+                font-family: 'ReformaGroteskBoldC';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 150px;
+                line-height: 0%;
+                color: #DB3138;
+                text-align: center;
+            }
+            &_desc {
+                font-family: 'ReformaGroteskMediumC';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 120%;
+                
+                /* or 48px */
+                text-align: center;
+                
+                /* white */
+                color: #FFFFFF;
+            }
+            &_btn {
+                cursor: pointer;
+                width: 180px;
+                height: 61px;
+                margin-top: 40px;
+                /* accent */
+                background: #DB3138;
+                border: none;
+                transition: all .5s ease;
+                &_txt {
+                    font-family: 'ReformaGroteskDemiC';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 140%;
+                    
+                    /* identical to box height, or 34px */
+                    text-align: center;
+                    letter-spacing: 0.05em;
+                    text-transform: uppercase;
+                    transition: all .5s ease;
+                    /* white */
+                    color: #FFFFFF;
+                }
+            }
+
+            &_btn:hover {
+                background: #FFFFFF;
+
+            }
+
+            &_btn:hover &_btn_txt {
+                color: #DB3138;
+            }
+        }
+
+        &_conditions {
+            width: 100%;
+            display: flex;
+            margin-top: 169px;
+            border-top: 1px solid #898989;
+            border-bottom: 1px solid #898989;
+        }
+        &_condition {
+            height: 215px;
+            width: 33.333%;
+            border-right: 1px solid #898989;
+            padding-top: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            &_header {
+                font-family: 'ReformaGroteskDemiC';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 26px;
+                line-height: 0%;
+                /* or 25px */
+                text-align: center;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                
+                /* white */
+                color: #FFFFFF;
+            }
+
+            &_desc {
+                font-family: 'ReformaGroteskDemiC';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 140%;
+                text-align: center;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #DB3138;
+            }
+        }
+        &_condition:last-child {
+            border: none;
+        }
+    }
+
+    &_center {
+        width: 100%;
+        min-height: 2000px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &_reasons {
+            width: 1296px;
+            height: 745px;
+            display: flex;
+            margin-top: 180px;
+            justify-content: space-between;
+
+            &_left {
+
+                &_txt {
+                    font-family: 'ReformaGroteskDemiC';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 52px;
+                    line-height: 0;
+                    margin-bottom: 40px;
+                    letter-spacing: 0.05em;
+                    text-transform: uppercase;
+                
+                    color: #FFFFFF;
+                }
+
+                &_desc {
+                    font-family: 'ReformaGroteskMediumC';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 120%;
+                    margin-top: 60px;
+                    /* or 29px */
+                    letter-spacing: 0.03em;
+                    
+                    /* white */
+                    color: #FFFFFF;
+
+
+                }
+            }
+
+            &_right {
+                width: 636px;
+                display: flex;
+
+                &_first {
+                    width: 318px;
+                    
+                    &_mini {
+                        height: 177px;
+                        width: 100%;
+                        border: 1px solid #898989;
+                        justify-content: center;
+                        display: flex;
+                        flex-direction: column;
+                        padding: 0 5px 0 5px;
+                    }
+                }
+
+                &_second {
+                    width: 318px;
+                    margin-top: 40px;
+                }
+            }
+
+            &_number {
+                font-family: 'ReformaGroteskDemiC';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 140%;
+
+/* or 34px */
+                text-align: center;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+
+/* accent */
+                color: #DB3138;
+
+                & span {
+                    font-size: 52px;
+                    line-height: 72px;
+                }
+            }
+
+            &_txt {
+                font-family: 'ReformaGroteskDemiC';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 140%;
+                
+/* or 22px */
+                
+                text-align: center;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+
+        &_info {
+            display: flex;
+            width: 1296px;
+            height: 662.43px;
+            margin-top: 220px;
+        }
+
+        &_services {
+            margin-top: 180px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &_header {
+                font-family: 'ReformaGroteskDemiC';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 52px;
+                line-height: 140%;
+
+                /* identical to box height, or 73px */
+                text-align: center;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+
+                /* white */
+                color: #FFFFFF;
+            }
+
+            &_blocks {
+                width: 1296px;
+                display: flex;
+                margin-top: 60px;
+                // margin-bottom: 50px;
+                justify-content: space-between;
+            }
+
+            &_block {
+                width: 306px;
+                height: 428px;
+                border: 1px solid #898989;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 70px;
+
+                &_header {
+                    font-family: 'ReformaGroteskDemiC';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 140%;
+                    
+                    /* identical to box height, or 34px */
+                    text-align: center;
+                    letter-spacing: 0.05em;
+                    text-transform: uppercase;
+                    
+                    /* white */
+                    color: #FFFFFF;
+                }
+
+                &_description {
+                    font-family: 'ReformaGroteskDemiC';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 140%;
+                    max-width: 226px;
+                    /* or 22px */
+                    text-align: center;
+                    letter-spacing: 0.05em;
+                    text-transform: uppercase;
+
+                    /* white */
+                    color: #FFFFFF;
+                }
+
+                &_button {
+                    height: 41px;
+                    width: 116px;
+                    border: none;
+                    cursor: pointer;
+                    /* accent */
+                    margin-top: 25px;
+                    background: #DB3138;
+                    transition: all .4s ease;
+
+                    &:hover {
+                        background: #FFFFFF;
+                    }
+                }
+
+                &_button:hover &_text {
+                    color: #DB3138;
+                }
+
+                &_text {
+                    font-family: 'ReformaGroteskDemiC';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 140%;
+
+                    /* or 25px */
+                    text-align: center;
+                    letter-spacing: 0.05em;
+                    text-transform: uppercase;
+
+                    /* white */
+                    color: #FFFFFF;
+
+                    transition: all .4s ease;
+                }
+
+                &_svg {
+                    height: 71px;
+                }
+            }
+        }
+
+        &_answers {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 180px;
+
+            &_header {
+                font-family: 'ReformaGroteskDemiC';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 52px;
+                line-height: 140%;
+                
+                /* identical to box height, or 73px */
+                text-align: center;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                
+                /* white */
+                color: #FFFFFF;
+            }
+        }
+
+        &_answer {
+            width: 636px;
+            margin-top: 60px;
+
+            &_top {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                margin-bottom: 24px;
+            }
+
+            &_bottom {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+            }
+
+            &_question {
+                width: 526px;
+                height: 150px;
+                border: 1px solid #898989;
+                padding: 15px 0 0 25px;
+                background: transparent;
+                font-family: 'ReformaGroteskDemiC';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 140%;
+                transition: all .5s ease;
+                /* or 22px */
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+
+                /* border */
+                color: #898989;
+            }
+
+            &_links {
+                width: 40px;
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-bottom: 26px;
+            }
+
+            &_link {
+                width: 40px;
+                height: 40px;
+                border: 1px solid #898989;
+                background: transparent;
+                cursor: pointer;
+                transition: all .5s ease;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &:hover {
+                    border: 1px solid #DB3138;
+                }
+            }
+
+            &_info {
+               width: 306px;
+               height: 47px; 
+               background: #141414;
+               border: 1px solid #898989;
+               padding: 15px 0 10px 25px;
+               font-family: 'ReformaGroteskDemiC';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 140%;
+
+                /* or 22px */
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+
+                /* border */
+                color: #898989;
+                transition: all .5s ease;
+            }
+
+            &_info:focus, &_question:focus {
+                outline: none !important;
+                border: 1px solid #DB3138;
+                color: #fff;
+            }
+
+            &_contacts {
+                width: 100%;
+            }
+
+            &_submit {
+                width: 142px;
+                height: 61px;
+                background: #DB3138;
+                border: none;
+                transition: all .5s ease;
+
+                &_txt {
+                    font-family: 'ReformaGroteskDemiC';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 140%;
+                    transition: all .5s ease;
+                    /* identical to box height, or 34px */
+                    text-align: center;
+                    letter-spacing: 0.05em;
+                    text-transform: uppercase;
+
+                    /* white */
+                    color: #FFFFFF;
+                }
+
+                &:hover {
+                    background: #fff;
+                }
+
+                &:hover &_txt {
+                    color: #DB3138;
+                }
+            }
+        }
+    }
+
+    &_line {
+        width: 100%;
+        border: 1px solid #898989;
+    }
+}
+
+.info {
+
+    &_left {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &_mini {
+            position: relative;
+            width: 100%;
+
+            &_text {
+                display: flex;
+                margin-bottom: 30px;
+            }
+
+            &_header {
+                font-family: 'ReformaGroteskDemiC';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 0%;
+                
+                /* or 45px */
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                
+                /* white */
+                color: #FFFFFF;
+            }
+        }
+
+        &_svg {
+            margin-right: 30px;
+        }
+
+        &_desc {
+            font-family: 'ReformaGroteskMediumC';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 120%;
+            
+            /* or 29px */
+            letter-spacing: 0.03em;
+            
+            /* white */
+            color: #FFFFFF;
+        }
+
+        &_mar {
+           margin-bottom: 40px;
+        }
+    }
+
+    &_right {
+        margin-left: 134px;
+    }
+}
+
+.slider {
+    width: 636px;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+
+    &_line {
+        position: absolute;
+        display: flex;
+        left: 0;
+        transition: all .5s ease;
+    }
+
+    &_manage {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+
+        &_btn_left, &_btn_right {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        &_txt {
+            font-family: 'ReformaGroteskDemiC';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 140%;
+            
+            /* or 25px */
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            
+            /* white */
+            color: #FFFFFF;
+        }
+    }
+}
